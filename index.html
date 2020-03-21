@@ -1,22 +1,303 @@
 <!DOCTYPE html>
 <html>
-<head>
 
-<title>Responsive Webb</title>
-<link rel="stylesheet" href="styles/index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Responsive Webb</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/d280d8d72e.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
 </head>
 
 
-<body>
-<header>
-<nav></nav>
-</header>
+<body class="screen">
+    <header class="nav">
+        <div class="space_between">
+            <div class="nav_logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <nav class="">
+                <ul class="nav_list flex_container">
+                    <li><a class="nav_link" href="#about">About</a></li>
+                    <li><a class="nav_link" href="#help">Help</a></li>
+                    <li><a class="nav_link" href="#features">Features</a></li>
+                    <li><a class="nav_link" href="#signup">Signup</a></li>
+                </ul>
+            </nav>
+            <div class="">
+                <p><button class="nav_button" type="submit">Request Demo<i
+                            class="padding_left10 fas fa-arrow-right"></i></button></p>
+            </div>
+        </div>
+    </header>
 
-<main>
-</main>
+    <main>
+        <div class="storage" id="about">
+            <div class="column margin-top">
+                <h1 class="storage_heading-font">
+                    Save your data storage here.
+                </h1>
+                <div class="">
+                    <p class="storage_font">
+                        Data Warehouse is a data storage area that has been
+                        tested for security, so you can store your data here
+                        safely but not be afraid of being stolen by others.
+                    </p>
+                </div>
+                <div class="">
+                    <p><button class="storage_button" type="submit">Learn more</button></p>
+                </div>
+            </div>
+            <div>
+                <img class="storage_img" src="./img/image1.png" alt="img1">
+            </div>
+        </div>
 
-<footer></footer>
+        <div class="data data_background" id="help">
+            <div class="column">
+                <img class="data_img" src="./img/image2.png" alt="img2">
+            </div>
+            <div>
+                <h2 class="data_heading-font">
+                    We are a high-level
+                    data
+                    storage bank
+                </h2>
+                <p class="data_font">
+                    The place to store various data
+                    that you can access at any time
+                    through the internet and where you can carry it.
+                    This very flexible storage area has a
+                    high level of security. To enter into
+                    your own data you must enter the password
+                    that you created when you registered in this Data Warehouse.
+                </p>
+            </div>
+        </div>
+
+        <div class="features" id="features">
+            <div class="column">
+                <h3 class="features_heading-font">
+                    Features
+                </h3>
+                <p class="features_font">
+                    Some of the features
+                    and advantages that we
+                    provide for those of you
+                    who store data in this Data Warehouse.
+                </p>
+            </div>
+        </div>
+
+        <div class="img">
+            <div class="img-row">
+                <div class="img-box">
+                    <img class="img-box-img" src="./img/image3.png">
+                    <div class="img-box-container img-box-1">
+                        <h3 class="features_box-text">
+                            Search Data
+                        </h3>
+                        <p class="features_small-box-text">
+                            Don’t worry if your data is
+                            very large, the Data Warehoue
+                            provides a search engine, which
+                            is useful for making it easier
+                            to find data effectively saving time.
+                        </p>
+                        <p>
+                            <a class="img_link" href="#about">Learn more</a>
+                            <i class="padding_left10 fas fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="img-box">
+                    <img class="img-box-img" src="img/image4.png">
+                    <div class="img-box-container img-box-2">
+                        <h3 class="features_box-text">
+                            24 Hours Access
+                        </h3>
+                        <p class="features_small-box-text">
+                            Access is given 24 hours a full morning to night and
+                            meet again in the morning, giving you comfort when
+                            you need data when urgent.
+                        </p>
+                        <p>
+                            <a class="img_link" href="#about">Learn more</a>
+                            <i class="padding_left10 fas fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-row">
+                <div class="img-box">
+                    <img class="img-box-img" src="img/image5.png">
+                    <div class="img-box-container img-box-3">
+                        <h3 class="features_box-text">
+                            Print Out
+                        </h3>
+                        <p class="features_small-box-text">
+                            Print out service gives you convenience if someday
+                            you need print data, just edit it all and just print it.
+                        </p>
+                        <p>
+                            <a class="img_link" href="#about">Learn more</a>
+                            <i class="padding_left10 fas fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="img-box">
+                    <img class="img-box-img" src="img/image6.png">
+                    <div class="img-box-container img-box-4">
+                        <h3 class="features_box-text">
+                            Security Code
+                        </h3>
+                        <p class="features_small-box-text">
+                            Data Security is one of our best facilities. Allows for your files
+                            to be safer. The file can be secured with a code or password that
+                            you created, so only you can open the file.
+                        </p>
+                        <p class="">
+                            <a class="img_link" href="#about">Learn more</a>
+                            <i class="fas fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="testimonials testimonials_background">
+            <div class="testimonials_heading">
+                <p>
+                    Testimonials
+                </p>
+            </div>
+            <div class="testimonials_card">
+                <div class="column">
+                    <div class="testimonials_img"></div>
+                </div>
+                <div class="column testimonials_card-text">
+                    <p class="testimonials_card-heading">John Fang</p>
+                    <p class="">
+                        <a class="testimonials_card-site" href="#link">wordfaang.com</a>
+                    </p>
+                    <p class="testimonials_card-fonttext">
+                        Suspendisse ultrices at diam lectus nullam.
+                        Nisl, sagittis viverra enim erat tortor ultricies
+                        massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </main>
+
+
+    <footer>
+        <div class="footer" id="signup">
+            <div class="column">
+                <p class="footer_header">
+                    Try for free!
+                </p>
+                <p class="footer_text">
+                    Get limited 1 week free try our features!
+                </p>
+            </div>
+            <div class="">
+                <button class="footer_button-one" type="submit">Learn more</button>
+                <button class="footer_button-two" type="submit">Request Demo<i
+                        class="padding_left10 fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="footer_two">
+            <div class="column">
+                <div class="">
+                    <img class="footer_logo" src="./img/logo.png" alt="logo">
+                    <span class="footer_font">DataWarehouse</span>
+                </div>
+                <p class="footer_text">
+                    Warehouse Society, 234
+                </p>
+                <p class="footer_text-two">
+                    Bahagia Ave Street
+                    PRBW 29281
+                </p>
+                <p class="footer_text-three">
+                    info@warehouse.project
+                </p>
+                <p class="footer_text-three-two">
+                    1-232-3434 (Main)
+                </p>
+                <p class="footer_text-four">
+                    © Datawarehouse™, 2020. All rights reserved.
+                </p>
+                <p class="footer_text-five">
+                    Company Registration Number: 21479524.
+                </p>
+            </div>
+            <div class="footer_info">
+                <p class="footer_text-six">
+                    About
+                </p>
+                <p class="footer_text-seven">
+                    Profile
+                </p>
+                <p class="footer_text-seven">
+                    Features
+                </p>
+                <p class="footer_text-seven">
+                    Careers
+                </p>
+                <p class="footer_text-seven">
+
+                    DW News
+                </p>
+            </div>
+            <div class="footer_info">
+                <p class="footer_text-six">
+                    Help
+                </p>
+                <p class="footer_text-seven">
+                    Support
+                </p>
+                <p class="footer_text-seven">
+                    Sign up
+                </p>
+                <p class="footer_text-seven">
+                    Guide
+                </p>
+                <p class="footer_text-seven">
+                    Reports
+                </p>
+                <p class="footer_text-seven">
+                    Q&A
+                </p>
+            </div>
+            <div class="footer_info">
+                <p class="footer_text-six">
+                    Social Media
+                </p>
+                <p class="">
+                    <i class="fab fa-facebook fa-3x" style="color:#e6e6e6;"></i>
+                    <i class="fab fa-twitter fa-3x" style="color: #e6e6e6;"></i>
+                    <i class="fab fa-instagram fa-3x" style="color: #e6e6e6;"></i>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
 
 </body>
-</html>
 
+</html>
